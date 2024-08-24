@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .blurBg {
+    @apply after:content-[''] after:bg-bgGray after:h-full after:left-0 after:top-0 after:w-full after:absolute;
+  }
+}
